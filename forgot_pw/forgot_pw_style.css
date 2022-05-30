@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    padding: 10px;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-title{
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    margin: 1rem auto;
+}
+body{
+    background-image: url(c1d04ebfc9ef291916ffe35cf44c796e.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    padding: .5rem;
+}
+.nav-item:hover a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: underline;
+}
+button{
+    background-color: white;
+    padding: .8rem 2rem;
+    border: none;
+    transition: 200ms;
+}
+td{
+    padding: 10px;
+}
+.content{
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto;
+    min-height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table td{
+    text-align: left;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Fredoka', sans-serif;
+}
+#password-match{
+    font-size:.7rem;
+    font-style:italic;
+    text-decoration: underline;
+    margin: 15px 0;
+}
+
+footer{
+    width: 100%;
+    border-top: 2px solid white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+    /* position: absolute; */
+    bottom: 0;
+    padding: 2rem 0;
+    max-height: 2rem;
+    text-align: center;
+}
+ @media screen and (max-width:992px) {
+    table{
+        margin-bottom: 1.5rem;
+    }
+}
